@@ -1,0 +1,33 @@
+{
+  "name": "smart-campus-detailed-sample",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@types/react": "file:vendor/types-react-19.3.0.tgz",
+    "@types/react-dom": "file:vendor/types-react-dom-19.3.0.tgz",
+    "csstype": "file:vendor/csstype-3.2.3.tgz",
+    "react": "file:vendor/react-19.3.1.tgz",
+    "react-dom": "file:vendor/react-dom-19.3.1.tgz",
+    "scheduler": "file:vendor/scheduler-0.28.0.tgz",
+    "three": "0.186.1",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/three": "0.186.0",
+    "playwright-core": "1.63.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.3",
+    "vitest": "4.1.11"
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "version": 10,
+  "frozenPlanHash": "9d1faa30d19cb104897d48edefa47f0df38f5d89cd1a11a77ff643798d38cd9d",
+  "rooms": [
+    {
+      "id": "A-101",
+      "family": "exhibition"
+    },
+    {
+      "id": "A-102",
+      "family": "reception"
+    },
+    {
+      "id": "A-103",
+      "family": "reception"
+    },
+    {
+      "id": "A-151",
+      "family": "stairs"
+    },
+    {
+      "id": "A-152",
+      "family": "restroom"
+    },
+    {
+      "id": "A-153",
+      "family": "equipment"
+    },
+    {
+      "id": "A-154",
+      "family": "lift"
+    },
+    {
+      "id": "A-155",
+      "family": "pantry"
+    },
+    {
+      "id": "A-156",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-157",
+      "family": "stairs"
+    },
+    {
+      "id": "A-201",
+      "family": "office"
+    },
+    {
+      "id": "A-202",
+      "family": "executive"
+    },
+    {
+      "id": "A-203",
+      "family": "meeting"
+    },
+    {
+      "id": "A-204",
+      "family": "training"
+    },
+    {
+      "id": "A-251",
+      "family": "stairs"
+    },
+    {
+      "id": "A-252",
+      "family": "restroom"
+    },
+    {
+      "id": "A-253",
+      "family": "equipment"
+    },
+    {
+      "id": "A-254",
+      "family": "lift"
+    },
+    {
+      "id": "A-255",
+      "family": "pantry"
+    },
+    {
+      "id": "A-256",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-257",
+      "family": "stairs"
+    },
+    {
+      "id": "A-301",
+      "family": "office"
+    },
+    {
+      "id": "A-302",
+      "family": "executive"
+    },
+    {
+      "id": "A-303",
+      "family": "meeting"
+    },
+    {
+      "id": "A-304",
+      "family": "training"
+    },
+    {
+      "id": "A-351",
+      "family": "stairs"
+    },
+    {
+      "id": "A-352",
+      "family": "restroom"
+    },
+    {
+      "id": "A-353",
+      "family": "equipment"
+    },
+    {
+      "id": "A-354",
+      "family": "lift"
+    },
+    {
+      "id": "A-355",
+      "family": "pantry"
+    },
+    {
+      "id": "A-356",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-357",
+      "family": "stairs"
+    },
+    {
+      "id": "A-401",
+      "family": "office"
+    },
+    {
+      "id": "A-402",
+      "family": "executive"
+    },
+    {
+      "id": "A-403",
+      "family": "meeting"
+    },
+    {
+      "id": "A-404",
+      "family": "training"
+    },
+    {
+      "id": "A-451",
+      "family": "stairs"
+    },
+    {
+      "id": "A-452",
+      "family": "restroom"
+    },
+    {
+      "id": "A-453",
+      "family": "equipment"
+    },
+    {
+      "id": "A-454",
+      "family": "lift"
+    },
+    {
+      "id": "A-455",
+      "family": "pantry"
+    },
+    {
+      "id": "A-456",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-457",
+      "family": "stairs"
+    },
+    {
+      "id": "A-501",
+      "family": "office"
+    },
+    {
+      "id": "A-502",
+      "family": "executive"
+    },
+    {
+      "id": "A-503",
+      "family": "meeting"
+    },
+    {
+      "id": "A-504",
+      "family": "training"
+    },
+    {
+      "id": "A-551",
+      "family": "stairs"
+    },
+    {
+      "id": "A-552",
+      "family": "restroom"
+    },
+    {
+      "id": "A-553",
+      "family": "equipment"
+    },
+    {
+      "id": "A-554",
+      "family": "lift"
+    },
+    {
+      "id": "A-555",
+      "family": "pantry"
+    },
+    {
+      "id": "A-556",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-557",
+      "family": "stairs"
+    },
+    {
+      "id": "A-601",
+      "family": "office"
+    },
+    {
+      "id": "A-602",
+      "family": "executive"
+    },
+    {
+      "id": "A-603",
+      "family": "meeting"
+    },
+    {
+      "id": "A-604",
+      "family": "training"
+    },
+    {
+      "id": "A-651",
+      "family": "stairs"
+    },
+    {
+      "id": "A-652",
+      "family": "restroom"
+    },
+    {
+      "id": "A-653",
+      "family": "equipment"
+    },
+    {
+      "id": "A-654",
+      "family": "lift"
+    },
+    {
+      "id": "A-655",
+      "family": "pantry"
+    },
+    {
+      "id": "A-656",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-657",
+      "family": "stairs"
+    },
+    {
+      "id": "A-701",
+      "family": "office"
+    },
+    {
+      "id": "A-702",
+      "family": "executive"
+    },
+    {
+      "id": "A-703",
+      "family": "meeting"
+    },
+    {
+      "id": "A-704",
+      "family": "training"
+    },
+    {
+      "id": "A-751",
+      "family": "stairs"
+    },
+    {
+      "id": "A-752",
+      "family": "restroom"
+    },
+    {
+      "id": "A-753",
+      "family": "equipment"
+    },
+    {
+      "id": "A-754",
+      "family": "lift"
+    },
+    {
+      "id": "A-755",
+      "family": "pantry"
+    },
+    {
+      "id": "A-756",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-757",
+      "family": "stairs"
+    },
+    {
+      "id": "A-801",
+      "family": "office"
+    },
+    {
+      "id": "A-802",
+      "family": "executive"
+    },
+    {
+      "id": "A-803",
+      "family": "meeting"
+    },
+    {
+      "id": "A-804",
+      "family": "training"
+    },
+    {
+      "id": "A-851",
+      "family": "stairs"
+    },
+    {
+      "id": "A-852",
+      "family": "restroom"
+    },
+    {
+      "id": "A-853",
+      "family": "equipment"
+    },
+    {
+      "id": "A-854",
+      "family": "lift"
+    },
+    {
+      "id": "A-855",
+      "family": "pantry"
+    },
+    {
+      "id": "A-856",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-857",
+      "family": "stairs"
+    },
+    {
+      "id": "A-901",
+      "family": "training"
+    },
+    {
+      "id": "A-902",
+      "family": "training"
+    },
+    {
+      "id": "A-903",
+      "family": "meeting"
+    },
+    {
+      "id": "A-904",
+      "family": "equipment"
+    },
+    {
+      "id": "A-951",
+      "family": "stairs"
+    },
+    {
+      "id": "A-952",
+      "family": "restroom"
+    },
+    {
+      "id": "A-953",
+      "family": "equipment"
+    },
+    {
+      "id": "A-954",
+      "family": "lift"
+    },
+    {
+      "id": "A-955",
+      "family": "pantry"
+    },
+    {
+      "id": "A-956",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-957",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1001",
+      "family": "office"
+    },
+    {
+      "id": "A-1002",
+      "family": "executive"
+    },
+    {
+      "id": "A-1003",
+      "family": "meeting"
+    },
+    {
+      "id": "A-1004",
+      "family": "training"
+    },
+    {
+      "id": "A-1051",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1052",
+      "family": "restroom"
+    },
+    {
+      "id": "A-1053",
+      "family": "equipment"
+    },
+    {
+      "id": "A-1054",
+      "family": "lift"
+    },
+    {
+      "id": "A-1055",
+      "family": "pantry"
+    },
+    {
+      "id": "A-1056",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-1057",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1101",
+      "family": "office"
+    },
+    {
+      "id": "A-1102",
+      "family": "executive"
+    },
+    {
+      "id": "A-1103",
+      "family": "meeting"
+    },
+    {
+      "id": "A-1104",
+      "family": "training"
+    },
+    {
+      "id": "A-1151",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1152",
+      "family": "restroom"
+    },
+    {
+      "id": "A-1153",
+      "family": "equipment"
+    },
+    {
+      "id": "A-1154",
+      "family": "lift"
+    },
+    {
+      "id": "A-1155",
+      "family": "pantry"
+    },
+    {
+      "id": "A-1156",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-1157",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1201",
+      "family": "office"
+    },
+    {
+      "id": "A-1202",
+      "family": "executive"
+    },
+    {
+      "id": "A-1203",
+      "family": "meeting"
+    },
+    {
+      "id": "A-1204",
+      "family": "training"
+    },
+    {
+      "id": "A-1251",
+      "family": "stairs"
+    },
+    {
+      "id": "A-1252",
+      "family": "restroom"
+    },
+    {
+      "id": "A-1253",
+      "family": "equipment"
+    },
+    {
+      "id": "A-1254",
+      "family": "lift"
+    },
+    {
+      "id": "A-1255",
+      "family": "pantry"
+    },
+    {
+      "id": "A-1256",
+      "family": "collaboration"
+    },
+    {
+      "id": "A-1257",
+      "family": "stairs"
+    },
+    {
+      "id": "B-101",
+      "family": "exhibition"
+    },
+    {
+      "id": "B-102",
+      "family": "reception"
+    },
+    {
+      "id": "B-103",
+      "family": "reception"
+    },
+    {
+      "id": "B-151",
+      "family": "stairs"
+    },
+    {
+      "id": "B-152",
+      "family": "restroom"
+    },
+    {
+      "id": "B-153",
+      "family": "equipment"
+    },
+    {
+      "id": "B-154",
+      "family": "lift"
+    },
+    {
+      "id": "B-155",
+      "family": "meeting"
+    },
+    {
+      "id": "B-156",
+      "family": "stairs"
+    },
+    {
+      "id": "B-201",
+      "family": "training"
+    },
+    {
+      "id": "B-202",
+      "family": "lab"
+    },
+    {
+      "id": "B-203",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-251",
+      "family": "stairs"
+    },
+    {
+      "id": "B-252",
+      "family": "restroom"
+    },
+    {
+      "id": "B-253",
+      "family": "equipment"
+    },
+    {
+      "id": "B-254",
+      "family": "lift"
+    },
+    {
+      "id": "B-255",
+      "family": "meeting"
+    },
+    {
+      "id": "B-256",
+      "family": "stairs"
+    },
+    {
+      "id": "B-301",
+      "family": "training"
+    },
+    {
+      "id": "B-302",
+      "family": "lab"
+    },
+    {
+      "id": "B-303",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-351",
+      "family": "stairs"
+    },
+    {
+      "id": "B-352",
+      "family": "restroom"
+    },
+    {
+      "id": "B-353",
+      "family": "equipment"
+    },
+    {
+      "id": "B-354",
+      "family": "lift"
+    },
+    {
+      "id": "B-355",
+      "family": "meeting"
+    },
+    {
+      "id": "B-356",
+      "family": "stairs"
+    },
+    {
+      "id": "B-401",
+      "family": "training"
+    },
+    {
+      "id": "B-402",
+      "family": "lab"
+    },
+    {
+      "id": "B-403",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-451",
+      "family": "stairs"
+    },
+    {
+      "id": "B-452",
+      "family": "restroom"
+    },
+    {
+      "id": "B-453",
+      "family": "equipment"
+    },
+    {
+      "id": "B-454",
+      "family": "lift"
+    },
+    {
+      "id": "B-455",
+      "family": "meeting"
+    },
+    {
+      "id": "B-456",
+      "family": "stairs"
+    },
+    {
+      "id": "B-501",
+      "family": "training"
+    },
+    {
+      "id": "B-502",
+      "family": "lab"
+    },
+    {
+      "id": "B-503",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-551",
+      "family": "stairs"
+    },
+    {
+      "id": "B-552",
+      "family": "restroom"
+    },
+    {
+      "id": "B-553",
+      "family": "equipment"
+    },
+    {
+      "id": "B-554",
+      "family": "lift"
+    },
+    {
+      "id": "B-555",
+      "family": "meeting"
+    },
+    {
+      "id": "B-556",
+      "family": "stairs"
+    },
+    {
+      "id": "B-601",
+      "family": "training"
+    },
+    {
+      "id": "B-602",
+      "family": "lab"
+    },
+    {
+      "id": "B-603",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-651",
+      "family": "stairs"
+    },
+    {
+      "id": "B-652",
+      "family": "restroom"
+    },
+    {
+      "id": "B-653",
+      "family": "equipment"
+    },
+    {
+      "id": "B-654",
+      "family": "lift"
+    },
+    {
+      "id": "B-655",
+      "family": "meeting"
+    },
+    {
+      "id": "B-656",
+      "family": "stairs"
+    },
+    {
+      "id": "B-701",
+      "family": "training"
+    },
+    {
+      "id": "B-702",
+      "family": "lab"
+    },
+    {
+      "id": "B-703",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-751",
+      "family": "stairs"
+    },
+    {
+      "id": "B-752",
+      "family": "restroom"
+    },
+    {
+      "id": "B-753",
+      "family": "equipment"
+    },
+    {
+      "id": "B-754",
+      "family": "lift"
+    },
+    {
+      "id": "B-755",
+      "family": "meeting"
+    },
+    {
+      "id": "B-756",
+      "family": "stairs"
+    },
+    {
+      "id": "B-801",
+      "family": "training"
+    },
+    {
+      "id": "B-802",
+      "family": "lab"
+    },
+    {
+      "id": "B-803",
+      "family": "collaboration"
+    },
+    {
+      "id": "B-851",
+      "family": "stairs"
+    },
+    {
+      "id": "B-852",
+      "family": "restroom"
+    },
+    {
+      "id": "B-853",
+      "family": "equipment"
+    },
+    {
+      "id": "B-854",
+      "family": "lift"
+    },
+    {
+      "id": "B-855",
+      "family": "meeting"
+    },
+    {
+      "id": "B-856",
+      "family": "stairs"
+    },
+    {
+      "id": "C-101",
+      "family": "pantry"
+    },
+    {
+      "id": "C-102",
+      "family": "reception"
+    },
+    {
+      "id": "C-103",
+      "family": "retail"
+    },
+    {
+      "id": "C-151",
+      "family": "stairs"
+    },
+    {
+      "id": "C-152",
+      "family": "restroom"
+    },
+    {
+      "id": "C-153",
+      "family": "equipment"
+    },
+    {
+      "id": "C-154",
+      "family": "lift"
+    },
+    {
+      "id": "C-155",
+      "family": "executive"
+    },
+    {
+      "id": "C-156",
+      "family": "stairs"
+    },
+    {
+      "id": "C-201",
+      "family": "lounge"
+    },
+    {
+      "id": "C-202",
+      "family": "lounge"
+    },
+    {
+      "id": "C-203",
+      "family": "reception"
+    },
+    {
+      "id": "C-251",
+      "family": "stairs"
+    },
+    {
+      "id": "C-252",
+      "family": "restroom"
+    },
+    {
+      "id": "C-253",
+      "family": "equipment"
+    },
+    {
+      "id": "C-254",
+      "family": "lift"
+    },
+    {
+      "id": "C-255",
+      "family": "executive"
+    },
+    {
+      "id": "C-256",
+      "family": "stairs"
+    },
+    {
+      "id": "C-301",
+      "family": "lounge"
+    },
+    {
+      "id": "C-302",
+      "family": "lounge"
+    },
+    {
+      "id": "C-303",
+      "family": "reception"
+    },
+    {
+      "id": "C-351",
+      "family": "stairs"
+    },
+    {
+      "id": "C-352",
+      "family": "restroom"
+    },
+    {
+      "id": "C-353",
+      "family": "equipment"
+    },
+    {
+      "id": "C-354",
+      "family": "lift"
+    },
+    {
+      "id": "C-355",
+      "family": "executive"
+    },
+    {
+      "id": "C-356",
+      "family": "stairs"
+    },
+    {
+      "id": "C-401",
+      "family": "lounge"
+    },
+    {
+      "id": "C-402",
+      "family": "lounge"
+    },
+    {
+      "id": "C-403",
+      "family": "reception"
+    },
+    {
+      "id": "C-451",
+      "family": "stairs"
+    },
+    {
+      "id": "C-452",
+      "family": "restroom"
+    },
+    {
+      "id": "C-453",
+      "family": "equipment"
+    },
+    {
+      "id": "C-454",
+      "family": "lift"
+    },
+    {
+      "id": "C-455",
+      "family": "executive"
+    },
+    {
+      "id": "C-456",
+      "family": "stairs"
+    },
+    {
+      "id": "C-501",
+      "family": "lounge"
+    },
+    {
+      "id": "C-502",
+      "family": "lounge"
+    },
+    {
+      "id": "C-503",
+      "family": "reception"
+    },
+    {
+      "id": "C-551",
+      "family": "stairs"
+    },
+    {
+      "id": "C-552",
+      "family": "restroom"
+    },
+    {
+      "id": "C-553",
+      "family": "equipment"
+    },
+    {
+      "id": "C-554",
+      "family": "lift"
+    },
+    {
+      "id": "C-555",
+      "family": "executive"
+    },
+    {
+      "id": "C-556",
+      "family": "stairs"
+    }
+  ],
+  "authoring": "V10 reference-driven workstation, joinery, screen and server construction refinement",
+  "preserved": "Building, floor, room, device identity and frozen placement; V5 facade geometry"
+}

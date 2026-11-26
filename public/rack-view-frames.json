@@ -1,0 +1,19 @@
+{
+  "basis": "V9 approved 42U rack template, stable framing across detail refinements",
+  "assembled": {
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "distance": 7.959790346781735
+  },
+  "exploded": {
+    "center": [
+      0.0020000040531158447,
+      0.32499999999999996,
+      0.2431057077646256
+    ],
+    "distance": 7.328099991321564
+  }
+}

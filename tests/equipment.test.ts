@@ -1,0 +1,8 @@
+import {describe,it,expect} from 'vitest';
+import * as T from 'three';
+import {EquipmentStage} from '../src/visual/equipment';
+function sample(){const source=new T.Group();source.position.set(20,40,10);const part=new T.Group();part.position.set(.2,0,0);part.userData={component_id:'door',component_label:'门板',explode_offset:[1,0,.5]};const mesh=new T.Mesh(new T.BoxGeometry(.5,1,.1),new T.MeshStandardMaterial());part.add(mesh);source.add(part);return {source,part,mesh};}
+describe('isolated equipment',()=>{
+ it('rapid interruption never changes original transforms or material',()=>{const {source,part,mesh}=sample(),stage=new EquipmentStage(new T.Scene());const original=part.position.clone(),material=mesh.material;stage.open(source);stage.expanded=true;for(let i=0;i<15;i++)stage.update(.016);stage.expanded=false;for(let i=0;i<8;i++)stage.update(.016);stage.expanded=true;for(let i=0;i<120;i++)stage.update(.016);expect(stage.progress).toBe(1);expect(part.position.equals(original)).toBe(true);expect(mesh.material).toBe(material);stage.expanded=false;for(let i=0;i<120;i++)stage.update(.016);expect(stage.parts.get('door')!.object.position.equals(original)).toBe(true);stage.close();expect(source.children).toContain(part);});
+ it('switching and reopening starts assembled with no stale selection',()=>{const {source}=sample(),stage=new EquipmentStage(new T.Scene());stage.open(source);stage.expanded=true;stage.selected='door';stage.update(.2);stage.open(source);expect(stage.parts.size).toBe(1);expect(stage.progress).toBe(0);expect(stage.expanded).toBe(false);expect(stage.selected).toBe(null);stage.close();expect(stage.root.visible).toBe(false);expect(stage.model).toBe(null);});
+});

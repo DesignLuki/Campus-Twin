@@ -1,0 +1,1203 @@
+{
+  "schemaVersion": 1,
+  "projectId": "smart-campus-gray-p3",
+  "title": "智慧数字孪生可视化园区",
+  "units": "m",
+  "upAxis": "Z",
+  "status": "frozen",
+  "revision": 5,
+  "site": {
+    "width": 180,
+    "depth": 150,
+    "groundElevation": 0,
+    "gridSize": 10
+  },
+  "camera": {
+    "position": [
+      95.00000000000001,
+      -250.00000000000006,
+      180
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "fov": 40,
+    "near": 0.1,
+    "far": 1500,
+    "presets": [
+      {
+        "id": "hero",
+        "label": "园区主视角",
+        "position": [
+          95.00000000000001,
+          -250.00000000000006,
+          180
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "top",
+        "label": "总平面",
+        "position": [
+          0,
+          -0.01,
+          280
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "north",
+        "label": "north",
+        "position": [
+          0,
+          245,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "south",
+        "label": "south",
+        "position": [
+          0,
+          -245,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "east",
+        "label": "east",
+        "position": [
+          245,
+          0,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "west",
+        "label": "west",
+        "position": [
+          -245,
+          0,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "northeast",
+        "label": "northeast",
+        "position": [
+          180,
+          180,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "northwest",
+        "label": "northwest",
+        "position": [
+          -180,
+          180,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "southeast",
+        "label": "southeast",
+        "position": [
+          180,
+          -180,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "southwest",
+        "label": "southwest",
+        "position": [
+          -180,
+          -180,
+          150
+        ],
+        "target": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "building",
+        "label": "A楼层数",
+        "position": [
+          35,
+          -120,
+          90
+        ],
+        "target": [
+          -42,
+          -10,
+          23
+        ]
+      },
+      {
+        "id": "floor",
+        "label": "A楼9F",
+        "position": [
+          -15,
+          -49,
+          70
+        ],
+        "target": [
+          -42,
+          -10,
+          29.4
+        ]
+      },
+      {
+        "id": "room",
+        "label": "903会议室",
+        "position": [
+          -27,
+          -42,
+          48
+        ],
+        "target": [
+          -37.5,
+          -16.575,
+          30
+        ]
+      }
+    ]
+  },
+  "lighting": {
+    "sunDirection": [
+      -100,
+      -150,
+      200
+    ],
+    "sunIntensity": 2.2,
+    "skyColor": "#edf2f5",
+    "groundColor": "#73838b",
+    "ambientIntensity": 2
+  },
+  "objects": [
+    {
+      "id": "A",
+      "label": "A楼 · 12层",
+      "category": "building",
+      "shape": "box",
+      "position": [
+        -42,
+        -10,
+        0
+      ],
+      "dimensions": [
+        36,
+        24,
+        45
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#b9c1c5",
+      "locked": false,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "B",
+      "label": "B楼 · 8层",
+      "category": "building",
+      "shape": "box",
+      "position": [
+        15.443930151709047,
+        34.008490095411545,
+        0
+      ],
+      "dimensions": [
+        30,
+        24,
+        30.6
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#b9c1c5",
+      "locked": false,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "C",
+      "label": "C楼 · 5层",
+      "category": "building",
+      "shape": "box",
+      "position": [
+        52,
+        33,
+        0
+      ],
+      "dimensions": [
+        30,
+        18,
+        19.8
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#b9c1c5",
+      "locked": false,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-south",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        0,
+        -62,
+        -0.04
+      ],
+      "dimensions": [
+        161,
+        7,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-north",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        0,
+        62,
+        -0.04
+      ],
+      "dimensions": [
+        161,
+        7,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-west",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        -77,
+        0,
+        -0.04
+      ],
+      "dimensions": [
+        7,
+        117,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-east",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        77,
+        0,
+        -0.04
+      ],
+      "dimensions": [
+        7,
+        117,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-spine",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        -10,
+        0,
+        -0.04
+      ],
+      "dimensions": [
+        7,
+        117,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-cross",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        0,
+        12,
+        -0.04
+      ],
+      "dimensions": [
+        154,
+        7,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-gate",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        -10,
+        -70.25,
+        -0.04
+      ],
+      "dimensions": [
+        7,
+        9.5,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "road-parking-link",
+      "label": "园区道路",
+      "category": "road",
+      "shape": "box",
+      "position": [
+        -18.75,
+        -32,
+        -0.04
+      ],
+      "dimensions": [
+        10.5,
+        6,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#637077",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "island",
+      "label": "中心环岛",
+      "category": "landscape",
+      "shape": "cylinder",
+      "position": [
+        -10,
+        12,
+        0.04
+      ],
+      "dimensions": [
+        6,
+        6,
+        0.25
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#9ca6a0",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "entry-A",
+      "label": "A楼入口步道",
+      "category": "path",
+      "shape": "box",
+      "position": [
+        -42,
+        -24.5,
+        0
+      ],
+      "dimensions": [
+        2,
+        5,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c7c8",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "entry-B",
+      "label": "B楼入口步道",
+      "category": "path",
+      "shape": "box",
+      "position": [
+        15.443930151709047,
+        18.754245047705773,
+        0
+      ],
+      "dimensions": [
+        2,
+        6.508490095411545,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c7c8",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "entry-C",
+      "label": "C楼入口步道",
+      "category": "path",
+      "shape": "box",
+      "position": [
+        52,
+        19.75,
+        0
+      ],
+      "dimensions": [
+        2,
+        8.5,
+        0.08
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c7c8",
+      "locked": true,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "parking",
+      "label": "停车区 · 12位",
+      "category": "parking",
+      "shape": "box",
+      "position": [
+        -42,
+        -34,
+        0
+      ],
+      "dimensions": [
+        36,
+        14,
+        0.12
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#828d93",
+      "locked": false,
+      "sourceStatus": "confirmed",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-01",
+      "label": "车位01",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -58.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-02",
+      "label": "车位02",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -55.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-03",
+      "label": "车位03",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -52.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-04",
+      "label": "车位04",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -49.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-05",
+      "label": "车位05",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -46.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-06",
+      "label": "车位06",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -43.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-07",
+      "label": "车位07",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -40.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-08",
+      "label": "车位08",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -37.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-09",
+      "label": "车位09",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -34.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-10",
+      "label": "车位10",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -31.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-11",
+      "label": "车位11",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -28.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "car-12",
+      "label": "车位12",
+      "category": "vehicle",
+      "shape": "box",
+      "position": [
+        -25.5,
+        -38.25,
+        0.12
+      ],
+      "dimensions": [
+        1.8,
+        4.3,
+        1.5
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#c3c9cc",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "garden",
+      "label": "中央绿地与树群",
+      "category": "vegetation",
+      "shape": "box",
+      "position": [
+        33.48231460425769,
+        -27.718614696165837,
+        0
+      ],
+      "dimensions": [
+        76.2,
+        50.8,
+        0.278
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a4aea8",
+      "locked": false,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-0",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        3.002314604257638,
+        -46.768614696165855,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-1",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        3.002314604257638,
+        -8.668614696165815,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-2",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        18.24231460425768,
+        -46.768614696165855,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-3",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        18.24231460425768,
+        -8.668614696165815,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-4",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        33.48231460425769,
+        -46.768614696165855,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-5",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        33.48231460425769,
+        -8.668614696165815,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-6",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        48.722314604257704,
+        -46.768614696165855,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-7",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        48.722314604257704,
+        -8.668614696165815,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-8",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        63.9623146042577,
+        -46.768614696165855,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "tree-9",
+      "label": "绿地树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        63.9623146042577,
+        -8.668614696165815,
+        0.2780000000000001
+      ],
+      "dimensions": [
+        4.572000000000009,
+        4.572000000000003,
+        6.949999999999996
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "northwest-green",
+      "label": "西北绿化组",
+      "category": "vegetation",
+      "shape": "box",
+      "position": [
+        -45,
+        37,
+        0
+      ],
+      "dimensions": [
+        28,
+        24,
+        0.2
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a4aea8",
+      "locked": false,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "nw-tree-0",
+      "label": "西北树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        -55,
+        29,
+        0.2
+      ],
+      "dimensions": [
+        4,
+        4,
+        6
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "nw-tree-1",
+      "label": "西北树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        -35,
+        29,
+        0.2
+      ],
+      "dimensions": [
+        4,
+        4,
+        6
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "nw-tree-2",
+      "label": "西北树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        -55,
+        45,
+        0.2
+      ],
+      "dimensions": [
+        4,
+        4,
+        6
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    },
+    {
+      "id": "nw-tree-3",
+      "label": "西北树群",
+      "category": "tree",
+      "shape": "cylinder",
+      "position": [
+        -35,
+        45,
+        0.2
+      ],
+      "dimensions": [
+        4,
+        4,
+        6
+      ],
+      "yawDeg": 0,
+      "anchor": "ground-center",
+      "color": "#a2aba5",
+      "locked": true,
+      "sourceStatus": "inferred",
+      "source": "P3 虚构尺寸方案；非实测"
+    }
+  ],
+  "notes": [
+    "P3虚构空间白模，非实测建筑。",
+    "外部P3西南原点坐标转本白模中心原点：[x-90,y-75,z]；Three.js转换集中执行[x,z,-y]。",
+    "仅供空间、层数、相机与粗光照确认；暂未添加精细模型、最终材质或业务数据。"
+  ],
+  "parentHash": "ac4895a7d6cebe84ad885b829303b654b7f9e07003e7f9d2cee220fa4f8f9dad",
+  "savedAt": "2026-11-17T14:30:40.716Z",
+  "hash": "9d1faa30d19cb104897d48edefa47f0df38f5d89cd1a11a77ff643798d38cd9d"
+}

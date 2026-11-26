@@ -1,0 +1,8706 @@
+[
+  {
+    "id": "VIZ-A101-KI01",
+    "room_id": "A-101",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A101-KI02",
+    "room_id": "A-101",
+    "type": "kiosk",
+    "label": "交互终端 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A101-KI03",
+    "room_id": "A-101",
+    "type": "kiosk",
+    "label": "交互终端 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A101-KI04",
+    "room_id": "A-101",
+    "type": "kiosk",
+    "label": "交互终端 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A153-RK01",
+    "room_id": "A-153",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A153-RK02",
+    "room_id": "A-153",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A153-RK03",
+    "room_id": "A-153",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A153-RK04",
+    "room_id": "A-153",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A155-CF01",
+    "room_id": "A-155",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A155-FR01",
+    "room_id": "A-155",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A204-KI01",
+    "room_id": "A-204",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A253-RK01",
+    "room_id": "A-253",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A253-RK02",
+    "room_id": "A-253",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A253-RK03",
+    "room_id": "A-253",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A253-RK04",
+    "room_id": "A-253",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A255-CF01",
+    "room_id": "A-255",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A255-FR01",
+    "room_id": "A-255",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A304-KI01",
+    "room_id": "A-304",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A353-RK01",
+    "room_id": "A-353",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A353-RK02",
+    "room_id": "A-353",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A353-RK03",
+    "room_id": "A-353",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A353-RK04",
+    "room_id": "A-353",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A355-CF01",
+    "room_id": "A-355",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A355-FR01",
+    "room_id": "A-355",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A404-KI01",
+    "room_id": "A-404",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A453-RK01",
+    "room_id": "A-453",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A453-RK02",
+    "room_id": "A-453",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A453-RK03",
+    "room_id": "A-453",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A453-RK04",
+    "room_id": "A-453",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A455-CF01",
+    "room_id": "A-455",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A455-FR01",
+    "room_id": "A-455",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A504-KI01",
+    "room_id": "A-504",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A553-RK01",
+    "room_id": "A-553",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A553-RK02",
+    "room_id": "A-553",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A553-RK03",
+    "room_id": "A-553",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A553-RK04",
+    "room_id": "A-553",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A555-CF01",
+    "room_id": "A-555",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A555-FR01",
+    "room_id": "A-555",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A604-KI01",
+    "room_id": "A-604",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A653-RK01",
+    "room_id": "A-653",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A653-RK02",
+    "room_id": "A-653",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A653-RK03",
+    "room_id": "A-653",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A653-RK04",
+    "room_id": "A-653",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A655-CF01",
+    "room_id": "A-655",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A655-FR01",
+    "room_id": "A-655",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A704-KI01",
+    "room_id": "A-704",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A753-RK01",
+    "room_id": "A-753",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A753-RK02",
+    "room_id": "A-753",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A753-RK03",
+    "room_id": "A-753",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A753-RK04",
+    "room_id": "A-753",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A755-CF01",
+    "room_id": "A-755",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A755-FR01",
+    "room_id": "A-755",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A804-KI01",
+    "room_id": "A-804",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A853-RK01",
+    "room_id": "A-853",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A853-RK02",
+    "room_id": "A-853",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A853-RK03",
+    "room_id": "A-853",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A853-RK04",
+    "room_id": "A-853",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A855-CF01",
+    "room_id": "A-855",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A855-FR01",
+    "room_id": "A-855",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A901-KI01",
+    "room_id": "A-901",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A902-KI01",
+    "room_id": "A-902",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A904-RK01",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK02",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK03",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK04",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-AC01",
+    "room_id": "A-904",
+    "type": "ac",
+    "label": "精密空调 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A904-RK05",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 05",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK06",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 06",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK07",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 07",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A904-RK08",
+    "room_id": "A-904",
+    "type": "rack",
+    "label": "机柜 08",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A953-RK01",
+    "room_id": "A-953",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A953-RK02",
+    "room_id": "A-953",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A953-RK03",
+    "room_id": "A-953",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A953-RK04",
+    "room_id": "A-953",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A955-CF01",
+    "room_id": "A-955",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A955-FR01",
+    "room_id": "A-955",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1004-KI01",
+    "room_id": "A-1004",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1053-RK01",
+    "room_id": "A-1053",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1053-RK02",
+    "room_id": "A-1053",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1053-RK03",
+    "room_id": "A-1053",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1053-RK04",
+    "room_id": "A-1053",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1055-CF01",
+    "room_id": "A-1055",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1055-FR01",
+    "room_id": "A-1055",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1104-KI01",
+    "room_id": "A-1104",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1153-RK01",
+    "room_id": "A-1153",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1153-RK02",
+    "room_id": "A-1153",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1153-RK03",
+    "room_id": "A-1153",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1153-RK04",
+    "room_id": "A-1153",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1155-CF01",
+    "room_id": "A-1155",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1155-FR01",
+    "room_id": "A-1155",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1204-KI01",
+    "room_id": "A-1204",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1253-RK01",
+    "room_id": "A-1253",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1253-RK02",
+    "room_id": "A-1253",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1253-RK03",
+    "room_id": "A-1253",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1253-RK04",
+    "room_id": "A-1253",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-A1255-CF01",
+    "room_id": "A-1255",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-A1255-FR01",
+    "room_id": "A-1255",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B101-KI01",
+    "room_id": "B-101",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B101-KI02",
+    "room_id": "B-101",
+    "type": "kiosk",
+    "label": "交互终端 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B101-KI03",
+    "room_id": "B-101",
+    "type": "kiosk",
+    "label": "交互终端 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B101-KI04",
+    "room_id": "B-101",
+    "type": "kiosk",
+    "label": "交互终端 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B153-RK01",
+    "room_id": "B-153",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B153-RK02",
+    "room_id": "B-153",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B153-RK03",
+    "room_id": "B-153",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B153-RK04",
+    "room_id": "B-153",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B201-KI01",
+    "room_id": "B-201",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB01",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB02",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB03",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB04",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB05",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B202-LB06",
+    "room_id": "B-202",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B253-RK01",
+    "room_id": "B-253",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B253-RK02",
+    "room_id": "B-253",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B253-RK03",
+    "room_id": "B-253",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B253-RK04",
+    "room_id": "B-253",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B301-KI01",
+    "room_id": "B-301",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB01",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB02",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB03",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB04",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB05",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B302-LB06",
+    "room_id": "B-302",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B353-RK01",
+    "room_id": "B-353",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B353-RK02",
+    "room_id": "B-353",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B353-RK03",
+    "room_id": "B-353",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B353-RK04",
+    "room_id": "B-353",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B401-KI01",
+    "room_id": "B-401",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB01",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB02",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB03",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB04",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB05",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B402-LB06",
+    "room_id": "B-402",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B453-RK01",
+    "room_id": "B-453",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B453-RK02",
+    "room_id": "B-453",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B453-RK03",
+    "room_id": "B-453",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B453-RK04",
+    "room_id": "B-453",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B501-KI01",
+    "room_id": "B-501",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB01",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB02",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB03",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB04",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB05",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B502-LB06",
+    "room_id": "B-502",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B553-RK01",
+    "room_id": "B-553",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B553-RK02",
+    "room_id": "B-553",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B553-RK03",
+    "room_id": "B-553",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B553-RK04",
+    "room_id": "B-553",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B601-KI01",
+    "room_id": "B-601",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB01",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB02",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB03",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB04",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB05",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B602-LB06",
+    "room_id": "B-602",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B653-RK01",
+    "room_id": "B-653",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B653-RK02",
+    "room_id": "B-653",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B653-RK03",
+    "room_id": "B-653",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B653-RK04",
+    "room_id": "B-653",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B701-KI01",
+    "room_id": "B-701",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB01",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB02",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB03",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB04",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB05",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B702-LB06",
+    "room_id": "B-702",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B753-RK01",
+    "room_id": "B-753",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B753-RK02",
+    "room_id": "B-753",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B753-RK03",
+    "room_id": "B-753",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B753-RK04",
+    "room_id": "B-753",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B801-KI01",
+    "room_id": "B-801",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB01",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB02",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 02",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB03",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 03",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB04",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 04",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB05",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 05",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B802-LB06",
+    "room_id": "B-802",
+    "type": "labinstrument",
+    "label": "实验仪器 06",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-B853-RK01",
+    "room_id": "B-853",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B853-RK02",
+    "room_id": "B-853",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B853-RK03",
+    "room_id": "B-853",
+    "type": "rack",
+    "label": "机柜 03",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-B853-RK04",
+    "room_id": "B-853",
+    "type": "rack",
+    "label": "机柜 04",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C101-CF01",
+    "room_id": "C-101",
+    "type": "coffee",
+    "label": "咖啡设备 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_2",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_3",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_4",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_5",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-C101-FR01",
+    "room_id": "C-101",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-C103-FR01",
+    "room_id": "C-103",
+    "type": "fridge",
+    "label": "冷藏展示柜 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_2",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_3",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_4",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-C103-KI01",
+    "room_id": "C-103",
+    "type": "kiosk",
+    "label": "交互终端 01",
+    "components": [
+      {
+        "id": "module_1",
+        "label": "模块 1"
+      },
+      {
+        "id": "module_2",
+        "label": "功能组件"
+      },
+      {
+        "id": "module_3",
+        "label": "显示组件"
+      },
+      {
+        "id": "module_4",
+        "label": "面板组件"
+      },
+      {
+        "id": "module_5",
+        "label": "机身外壳"
+      },
+      {
+        "id": "module_6",
+        "label": "支架与五金"
+      }
+    ],
+    "dimensions_m": null
+  },
+  {
+    "id": "VIZ-C153-RK01",
+    "room_id": "C-153",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C153-RK02",
+    "room_id": "C-153",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C253-RK01",
+    "room_id": "C-253",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C253-RK02",
+    "room_id": "C-253",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C353-RK01",
+    "room_id": "C-353",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C353-RK02",
+    "room_id": "C-353",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C453-RK01",
+    "room_id": "C-453",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C453-RK02",
+    "room_id": "C-453",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C553-RK01",
+    "room_id": "C-553",
+    "type": "rack",
+    "label": "机柜 01",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "VIZ-C553-RK02",
+    "room_id": "C-553",
+    "type": "rack",
+    "label": "机柜 02",
+    "components": [
+      {
+        "id": "fan_module",
+        "label": "顶置风扇"
+      },
+      {
+        "id": "frame",
+        "label": "机架框体"
+      },
+      {
+        "id": "front_door",
+        "label": "通风柜门"
+      },
+      {
+        "id": "left_panel",
+        "label": "左侧面板"
+      },
+      {
+        "id": "patch_panel",
+        "label": "配线与跳线"
+      },
+      {
+        "id": "pdu",
+        "label": "电源分配单元"
+      },
+      {
+        "id": "rails",
+        "label": "安装导轨"
+      },
+      {
+        "id": "rear_panel",
+        "label": "后部面板"
+      },
+      {
+        "id": "server_1",
+        "label": "服务器托盘 1"
+      },
+      {
+        "id": "server_2",
+        "label": "服务器托盘 2"
+      },
+      {
+        "id": "server_3",
+        "label": "服务器托盘 3"
+      },
+      {
+        "id": "side_panel",
+        "label": "可卸侧板"
+      }
+    ],
+    "dimensions_m": [
+      0.6,
+      1,
+      2
+    ]
+  }
+]
