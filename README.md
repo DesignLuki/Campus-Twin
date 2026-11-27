@@ -1,6 +1,6 @@
-# 智慧数字孪生可视化园区
+# Campus Twin
 
-[打开三维预览](https://designluki.github.io/smart-campus-digital-twin/)
+[打开三维预览](https://designluki.github.io/Campus-Twin/)
 
 桌面浏览器需支持 WebGL 2。首次访问会加载 A、B、C 三栋楼的模型，合计约 49 MB。
 
