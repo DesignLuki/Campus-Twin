@@ -7,22 +7,19 @@ const vertex=`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*m
 export class NightEffects{
  time=0;enabled=!matchMedia('(prefers-reduced-motion: reduce)').matches;
  shaders:T.ShaderMaterial[]=[];owned:T.Object3D[]=[];beacon:T.Group;mode='campus';
- constructor(city:T.Group,context:T.Group,asset:T.Object3D,plan:SitePlan){
+ constructor(city:T.Group,context:T.Group,asset:T.Object3D,plan:SitePlan,markerLift:number){
   const attach=(parent:T.Object3D,o:T.Object3D)=>{o.name='night-decoration';o.userData.decorative=true;o.traverse(n=>n.raycast=()=>{});parent.add(o);this.owned.push(o);return o};
   const tube=(parent:T.Object3D,points:T.Vector3[],color:T.Color,width=.06)=>{
    const curve=new T.CatmullRomCurve3(points,false,'catmullrom',0);const mesh=new T.Mesh(new T.TubeGeometry(curve,Math.max(2,points.length*2),width,4,false),new T.MeshBasicMaterial({color:color.clone().multiplyScalar(2.0),toneMapped:false}));attach(parent,mesh);
   };
   const shader=(fragment:string,color=cyan)=>{const m=new T.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:color}},vertexShader:vertex,fragmentShader:`uniform float uTime;uniform vec3 uColor;varying vec2 vUv;${fragment}`,transparent:true,depthWrite:false,side:T.DoubleSide,blending:T.AdditiveBlending,toneMapped:false});this.shaders.push(m);return m};
   const radial=shader(`void main(){vec2 p=(vUv-.5)*2.;float r=length(p);float base=exp(-r*r*5.)*.20;float rings=0.;for(int i=0;i<3;i++){float age=fract(uTime*.23+float(i)/3.);float rr=.15+age*.79;rings+=exp(-pow(abs(r-rr)*75.,2.))*(1.-age)*.8;}float a=(base+rings)*(1.-smoothstep(.90,1.,r));gl_FragColor=vec4(uColor,a);}`);
-  const disc=new T.Mesh(new T.PlaneGeometry(30,30),radial);disc.rotation.x=-Math.PI/2;disc.position.y=2.16;attach(city,disc);
-  this.beacon=new T.Group();this.beacon.position.set(0,2.1,0);attach(city,this.beacon);
+  const disc=new T.Mesh(new T.PlaneGeometry(30,30),radial);disc.rotation.x=-Math.PI/2;disc.position.y=2.16+markerLift;attach(city,disc);
+  this.beacon=new T.Group();this.beacon.position.set(0,2.1+markerLift,0);attach(city,this.beacon);
   const beam=shader(`void main(){float sides=pow(sin(vUv.x*3.14159265),3.);float fade=pow(1.-vUv.y,2.5);float a=sides*fade*.30;gl_FragColor=vec4(uColor,a);}`);
   const light=new T.Mesh(new T.CylinderGeometry(1.7,2.4,23,48,1,true),beam);light.position.y=11.5;attach(this.beacon,light);
   const diamond=new T.Mesh(new T.OctahedronGeometry(1.15),new T.MeshBasicMaterial({color:amber,toneMapped:false}));diamond.position.y=8;diamond.name='beacon-diamond';attach(this.beacon,diamond);diamond.name='beacon-diamond';
   const orbit=new T.Mesh(new T.TorusGeometry(4.3,.045,6,96,Math.PI*1.6),new T.MeshBasicMaterial({color:amber,toneMapped:false}));orbit.rotation.x=-Math.PI/2;orbit.position.y=.14;attach(this.beacon,orbit);orbit.name='beacon-orbit';
-  // Subtle world grid below the city, separated from the map's actual boundary.
-  const gridMaterial=shader(`void main(){vec2 p=(vUv-.5)*2.;vec2 q=abs(fract(vUv*40.-.5)-.5)/fwidth(vUv*40.);float grid=1.-min(min(q.x,q.y),1.);float fade=pow(max(0.,1.-length(p)),2.);gl_FragColor=vec4(uColor,grid*fade*.16);}`);
-  const grid=new T.Mesh(new T.PlaneGeometry(210,210),gridMaterial);grid.rotation.x=-Math.PI/2;grid.position.y=-.32;attach(city,grid);
   // Sparse warm rooms are visible through the existing PBR glass, without recoloring the building shell.
   asset.traverse(o=>{if(o instanceof T.Mesh){for(const m of Array.isArray(o.material)?o.material:[o.material]){if(m instanceof T.MeshStandardMaterial){if(m.name==='v5_lamp'){m.emissive.set('#ffd49b');m.emissiveIntensity=3.2}if(m.name==='v5_warm'){m.emissive.set('#e6a85d');m.emissiveIntensity=.48}}}}});
   for(const b of data.buildings){

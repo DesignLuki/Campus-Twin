@@ -31,3 +31,7 @@
 .scene-label[data-object="demo-campus"]{background:linear-gradient(110deg,#112e43f7,#173e53f7);border:1px solid #74d6e7a3;border-left:3px solid #f3b775;padding:.58em .95em;text-align:left;color:#f4fbff;font-weight:650;box-shadow:0 6px 24px #02142070}
 .scene-label[data-object="demo-campus"] small{display:block;margin-top:.32em;color:#b5dce7;font-size:.72em;font-weight:500}
 .map-source span{color:#d5a36d}
+.terrain-credit{font:clamp(9px,.64vw,16px)/1.45 system-ui,sans-serif;color:#b0c2c1;text-shadow:0 1px 4px #0b1a1e;max-width:43%;pointer-events:auto}
+.terrain-credit a{text-decoration:underline;text-underline-offset:2px}
+.scene-label[data-object="demo-campus"]{background:linear-gradient(115deg,#112c2af5,#192f31f0);border-color:#8acbbc90;border-left-color:#eaba78;border-radius:3px;box-shadow:0 3px 12px #07181866;font-size:clamp(12px,1.04vw,36px)}
+.scene-label[data-object="demo-campus"] small{color:#c6dace}

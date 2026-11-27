@@ -19,4 +19,4 @@ npm run dev
 
 向 main 推送更新后，GitHub Actions 会运行测试并构建静态站点，随后部署到 GitHub Pages。工作流位于 `.github/workflows/pages.yml`。
 
-城市视图使用 Natural Earth 公有领域的市界和[主要道路数据](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/roads/)。建筑群和园区位置用于场景演示，定位卡统计当前模型中的空间和设备。
+城市地图采用 Natural Earth 的上海市界。地表为 [EOxCloudless](https://cloudless.eox.at/) by [EOX IT Services GmbH](https://eox.at/) (Contains modified Copernicus Sentinel data 2016 & 2017)，使用 2016 版 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 影像，经配准、裁切和调色。地表起伏来自 [Terrarium 高程瓦片](https://registry.opendata.aws/terrain-tiles/)，纵向放大显示。轮廓底座厚度和园区定位为展示设计。

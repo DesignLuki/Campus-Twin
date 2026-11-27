@@ -80,15 +80,18 @@ export class CampusScene {
   const summary=document.createElement('small');
   summary.textContent=`${data.rooms.length} 个空间 · ${data.devices.length} 台设备`;
   campusLabel.appendChild(summary);campusLabel.title='进入园区';
-  await this.loadCity();if(!this.alive)return;this.night=new NightEffects(this.city,this.context,this.asset,plan);
+  await this.loadCity();if(!this.alive)return;this.night=new NightEffects(this.city,this.context,this.asset,plan,this.cityMarkerLift);
   this.camera.position.copy(v(plan.camera.position));this.controls.target.copy(v(plan.camera.target));this.setState(this.state);this.onReady();
  }catch(e){if(this.alive)this.onReady(String(e))}}
+ cityMarkerLift=0;disposeCityTextures?:()=>void;
  async loadCity(){
   const r=await fetch('./geodata/shanghai.json');if(!r.ok)throw Error('城市底图加载失败');const json=await r.json();
   const geometry=json.features[0].geometry;const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
-  buildCityMap(this.city,polygons);
-  const pin=new T.Mesh(new T.CylinderGeometry(.7,.7,6,20),new T.MeshStandardMaterial({color:'#f5a85f',emissive:'#9d5524',emissiveIntensity:.6}));pin.position.set(0,5,0);pin.userData.kind='campus-pin';this.city.add(pin);
-  const ring=new T.Mesh(new T.RingGeometry(3,3.4,64),new T.MeshBasicMaterial({color:'#f5a85f',side:T.DoubleSide}));ring.rotation.x=-Math.PI/2;ring.position.y=2.2;ring.userData.kind='campus-pin';this.city.add(ring);
+  const terrain=await buildCityMap(this.city,polygons);
+  if(!this.alive){terrain.dispose();disposeObject(this.city);return}
+  this.disposeCityTextures=terrain.dispose;this.cityMarkerLift=terrain.markerLift;
+  const pin=new T.Mesh(new T.CylinderGeometry(.7,.7,6,20),new T.MeshStandardMaterial({color:'#f5a85f',emissive:'#9d5524',emissiveIntensity:.6}));pin.position.set(0,5+this.cityMarkerLift,0);pin.userData.kind='campus-pin';this.city.add(pin);
+  const ring=new T.Mesh(new T.RingGeometry(3,3.4,64),new T.MeshBasicMaterial({color:'#f5a85f',side:T.DoubleSide}));ring.rotation.x=-Math.PI/2;ring.position.y=2.2+this.cityMarkerLift;ring.userData.kind='campus-pin';this.city.add(ring);
 
  }
  label(id:string,text:string){const el=document.createElement('button');el.className='scene-label';el.textContent=text;el.dataset.object=id;el.onclick=()=>{if(id.startsWith('device:'))this.onAction({type:'device',id:id.slice(7)});else if(buildings.has(id))this.onAction({type:'building',id});else if(id==='selected-room')this.onAction({type:'room',id:this.state.room});else this.onAction({type:'navigate',mode:'campus'})};this.host.appendChild(el);this.labels.set(id,el)}
@@ -183,12 +186,12 @@ export class CampusScene {
    if(buildings.has(id)&&this.state.mode==='campus'){const p=placements.get(id)!;point=v([p[0],p[1],buildings.get(id)!.equip+3])}
    if(id==='selected-room'&&this.state.mode==='floor'){const c=roomCenter(this.state.room);point=v([c[0],c[1],c[2]+2]);el.textContent=`${this.state.room} · ${rooms.get(this.state.room)!.name} ↗`}
    if(id.startsWith('device:')&&this.state.mode==='room'&&this.state.room==='A-903'){const o=this.objects.get(id.slice(7));if(o){o.updateWorldMatrix(true,false);point=new T.Box3().setFromObject(o).getCenter(new T.Vector3());point.y+=.24;el.classList.add('device-scene-label');el.classList.toggle('selected',this.state.device===id.slice(7));}}
-   if(id==='demo-campus'&&this.state.mode==='city')point=new T.Vector3(0,13,0);
+   if(id==='demo-campus'&&this.state.mode==='city')point=new T.Vector3(0,13+this.cityMarkerLift,0);
    el.hidden=!point||!!this.state.inspect;if(point&&!this.state.inspect){point.project(this.camera);el.style.left=`${(point.x+1)*size.width/2}px`;el.style.top=`${(1-point.y)*size.height/2}px`;el.hidden=point.z>1||point.z< -1}
   }
   this.perfFrames++;if(time-this.perfStart>1000){this.lastFps=this.perfFrames*1000/(time-this.perfStart);this.perfFrames=0;this.perfStart=time;this.host.dataset.renderStats=JSON.stringify({...this.diagnostics(),fps:Math.round(this.lastFps),moving:this.moving,lcd:this.interior.lastLCD});}
   this.frame=requestAnimationFrame(this.tick);
  };
  diagnostics(){return {version:10,inspection:{parts:this.equipment.parts.size,progress:this.equipment.progress,selected:this.equipment.selected},state:this.state,hash:this.hash,loaded:!!this.asset,css:[this.host.clientWidth,this.host.clientHeight],buffer:this.renderer.getDrawingBufferSize(new T.Vector2()).toArray(),pixelRatio:this.renderer.getPixelRatio(),camera:this.camera.position.toArray(),target:this.controls.target.toArray(),triangles:this.renderer.info.render.triangles,calls:this.renderer.info.render.calls,floor9:this.objects.get('A_F09')?.getWorldPosition(new T.Vector3()).toArray(),room:this.objects.get(this.state.room)?.getWorldPosition(new T.Vector3()).toArray(),selectedFloor:this.objects.get(`${this.state.building}_F${String(this.state.floor).padStart(2,'0')}`)?.getWorldPosition(new T.Vector3()).toArray(),semanticCounts:{rooms:[...this.objects.values()].filter(o=>o.userData.kind==='room').length,devices:[...this.objects.values()].filter(o=>o.userData.kind==='device').length},nightEffects:{enabled:this.night?.enabled,time:this.night?.time,decorations:this.night?.owned.length},postProcessingBuffer:this.composer?[this.composer.renderTarget1.width,this.composer.renderTarget1.height]:null}}
- dispose(){this.alive=false;cancelAnimationFrame(this.frame);this.resize.disconnect();this.controls.dispose();this.equipment.close();this.interior.dispose();this.night?.dispose();this.bloom?.dispose();this.output?.dispose();this.composer?.dispose();this.renderer.domElement.removeEventListener('pointerdown',this.down);this.renderer.domElement.removeEventListener('pointerup',this.up);this.scene.traverse(o=>{if(o instanceof T.Sprite){o.material.map?.dispose();o.material.dispose()}if(o instanceof T.Mesh||o instanceof T.Line){o.geometry.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>m.dispose())}});this.scene.environment?.dispose();if(this.scene.background instanceof T.Texture)this.scene.background.dispose();this.renderer.dispose();this.host.replaceChildren()}
+ dispose(){this.alive=false;cancelAnimationFrame(this.frame);this.resize.disconnect();this.disposeCityTextures?.();this.controls.dispose();this.equipment.close();this.interior.dispose();this.night?.dispose();this.bloom?.dispose();this.output?.dispose();this.composer?.dispose();this.renderer.domElement.removeEventListener('pointerdown',this.down);this.renderer.domElement.removeEventListener('pointerup',this.up);this.scene.traverse(o=>{if(o instanceof T.Sprite){o.material.map?.dispose();o.material.dispose()}if(o instanceof T.Mesh||o instanceof T.Line){o.geometry.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>m.dispose())}});this.scene.environment?.dispose();if(this.scene.background instanceof T.Texture)this.scene.background.dispose();this.renderer.dispose();this.host.replaceChildren()}
 }
