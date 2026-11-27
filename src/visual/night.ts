@@ -13,7 +13,7 @@ export class NightEffects{
    const curve=new T.CatmullRomCurve3(points,false,'catmullrom',0);const mesh=new T.Mesh(new T.TubeGeometry(curve,Math.max(2,points.length*2),width,4,false),new T.MeshBasicMaterial({color:color.clone().multiplyScalar(2.0),toneMapped:false}));attach(parent,mesh);
   };
   const shader=(fragment:string,color=cyan)=>{const m=new T.ShaderMaterial({uniforms:{uTime:{value:0},uColor:{value:color}},vertexShader:vertex,fragmentShader:`uniform float uTime;uniform vec3 uColor;varying vec2 vUv;${fragment}`,transparent:true,depthWrite:false,side:T.DoubleSide,blending:T.AdditiveBlending,toneMapped:false});this.shaders.push(m);return m};
-  const radial=shader(`void main(){vec2 p=(vUv-.5)*2.;float r=length(p);float base=exp(-r*r*5.)*.20;float rings=0.;for(int i=0;i<3;i++){float age=fract(uTime*.23+float(i)/3.);float rr=.15+age*.79;rings+=exp(-pow((r-rr)*75.,2.))*(1.-age)*.8;}float a=(base+rings)*smoothstep(1.,.90,r);gl_FragColor=vec4(uColor,a);}`);
+  const radial=shader(`void main(){vec2 p=(vUv-.5)*2.;float r=length(p);float base=exp(-r*r*5.)*.20;float rings=0.;for(int i=0;i<3;i++){float age=fract(uTime*.23+float(i)/3.);float rr=.15+age*.79;rings+=exp(-pow(abs(r-rr)*75.,2.))*(1.-age)*.8;}float a=(base+rings)*(1.-smoothstep(.90,1.,r));gl_FragColor=vec4(uColor,a);}`);
   const disc=new T.Mesh(new T.PlaneGeometry(30,30),radial);disc.rotation.x=-Math.PI/2;disc.position.y=2.16;attach(city,disc);
   this.beacon=new T.Group();this.beacon.position.set(0,2.1,0);attach(city,this.beacon);
   const beam=shader(`void main(){float sides=pow(sin(vUv.x*3.14159265),3.);float fade=pow(1.-vUv.y,2.5);float a=sides*fade*.30;gl_FragColor=vec4(uColor,a);}`);
@@ -32,7 +32,7 @@ export class NightEffects{
     if(f.floor===b.floors||f.floor===1||f.floor%3===0){const h=f.floor_height-.13;tube(facade,[new T.Vector3(-x,h,z),new T.Vector3(x,h,z),new T.Vector3(x,h,-z),new T.Vector3(-x,h,-z),new T.Vector3(-x,h,z)],cyan,.085)}
     for(const sx of [-1,1])for(const sz of [-1,1])tube(facade,[new T.Vector3(sx*x,.4,sz*z),new T.Vector3(sx*x,f.floor_height-.4,sz*z)],cyan,.07);
    }
-   const p=placements.get(b.id)!;const halo=new T.Mesh(new T.PlaneGeometry(b.width+12,b.depth+12),shader(`void main(){vec2 q=abs(vUv-.5)*2.;float edge=max(q.x,q.y);float glow=exp(-pow((edge-.76)*14.,2.))*.20;gl_FragColor=vec4(uColor,glow);}`));halo.rotation.x=-Math.PI/2;halo.position.set(p[0],.115,-p[1]);attach(context,halo);
+   const p=placements.get(b.id)!;const halo=new T.Mesh(new T.PlaneGeometry(b.width+12,b.depth+12),shader(`void main(){vec2 q=abs(vUv-.5)*2.;float edge=max(q.x,q.y);float glow=exp(-pow(abs(edge-.76)*14.,2.))*.20;gl_FragColor=vec4(uColor,glow);}`));halo.rotation.x=-Math.PI/2;halo.position.set(p[0],.115,-p[1]);attach(context,halo);
   }
   const flow=shader(`void main(){float edge=pow(max(0.,1.-abs(vUv.y-.5)*2.),1.6);float phase=fract(vUv.x*3.-uTime*.19);float trail=pow(phase,15.);float a=edge*(.13+.87*trail);gl_FragColor=vec4(uColor*1.5,a);}`);
   for(const o of plan.objects.filter(o=>o.category==='road')){const [w,d,h]=o.dimensions,horizontal=w>d,length=Math.max(w,d);for(const side of [-1,1]){const ribbon=new T.Mesh(new T.PlaneGeometry(length,.46),flow);ribbon.rotation.x=-Math.PI/2;if(!horizontal)ribbon.rotation.z=Math.PI/2;ribbon.position.set(o.position[0]+(horizontal?0:side*w*.30),o.position[2]+h+.07,-o.position[1]+(horizontal?side*d*.30:0));attach(context,ribbon)}}

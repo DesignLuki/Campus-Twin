@@ -33,8 +33,16 @@ function SolidPie({values,colors}:{values:number[];colors:string[]}){
  </svg>
 }
 
-function Icon({kind}:{kind:number}){return <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">{kind===0?<><path d="m3 11 13-7 13 7-13 7Z"/><path d="m3 17 13 7 13-7M3 23l13 7 13-7"/></>:kind===1?<><path d="M3 28h26M7 28V12h8v16M15 28V4h10v24"/><path d="M19 9h2m-2 5h2m-2 5h2M10 17h2m-2 5h2"/></>:kind===2?<><path d="M3 12V4h8m10 0h8v8M3 21v8h8m10 0h8v-8"/><path d="M9 10h14v13H9z" opacity=".5"/></>:<><rect x="3" y="5" width="26" height="19" rx="1"/><path d="M16 24v5m-7 0h14"/></>}</svg>}
-function Panel({title,children,className='',note}:{title:string;children:ReactNode;className?:string;note?:string}){return <section className={'viz-panel '+className}><h2><i/>{title}{note&&<small>{note}</small>}</h2><div className="panel-body">{children}</div></section>}
+function Icon({kind}:{kind:number}){
+ const art=[
+  <><path fill="#367896" d="m3 20 13-7 13 7-13 8z"/><path fill="#559cb6" d="m3 15 13-7 13 7-13 8z"/><path fill="#a1e0ee" d="m3 10 13-7 13 7-13 8z"/><path fill="#e9b36c" d="m12 10 4-2 4 2-4 2z"/></>,
+  <><path fill="#4381a0" d="m3 15 7-3 6 3v12l-7 2-6-3z"/><path fill="#90d4e8" d="m13 5 9-3 7 4-9 4z"/><path fill="#508daa" d="m13 5 7 5v18l-7-3z"/><path fill="#2c617e" d="m20 10 9-4v18l-9 4z"/><path stroke="#b8ebf4" d="m23 12 3-1m-3 5 3-1m-3 5 3-1"/><path stroke="#f5c685" d="M6 17v3m4-3v3"/></>,
+  <><path fill="#376e89" d="m2 17 15-10 13 7-15 12z"/><path fill="#75b6ca" d="m2 14 15-10 13 7-15 12z"/><path stroke="#d3f1ee" d="m8 14 5 3 9-7m-6 5 4 2"/><path stroke="#f1b875" d="m4 23 10 5m-11-7 1 3m9 2 2 3"/></>,
+  <><path fill="#376e89" d="m3 6 24-2 3 2v16l-24 3-3-2z"/><path fill="#173e54" stroke="#8fcedd" d="m5 8 22-2v14L5 23z"/><path stroke="#f3bc75" d="m8 16 4-.5 2-4 3 6 2-4 5-.6"/><path fill="#81bbcf" d="m13 24 5-.6v3l5-.5v2l-15 1.6v-2l5-.6z"/></>
+ ];
+ return <svg className="asset-glyph" viewBox="0 0 32 32" aria-hidden="true" strokeLinejoin="round" strokeLinecap="round" strokeWidth="1.4">{art[kind]}</svg>
+}
+function Panel({title,children,className='',note,action}:{title:string;children:ReactNode;className?:string;note?:string;action?:ReactNode}){return <section className={'viz-panel '+className}><h2><i/>{title}{note&&<small>{note}</small>}{action}</h2><div className="panel-body">{children}</div></section>}
 function Donut({values,center,colors=seriesColors,pie=false}:{values:number[];center:string;colors?:string[];pie?:boolean}){
  if(pie)return <SolidPie values={values} colors={colors}/>;
  const total=values.reduce((a,b)=>a+b,0),circumference=2*Math.PI*70;let a=0;
@@ -49,15 +57,15 @@ export function Panels({state,selected,bundle,dispatch,now,onLedger,onData}:{sta
  const costTotal=m.costs.reduce((a,b)=>a+b,0),costs=m.costs.map(v=>costTotal?v/costTotal*100:0),costColors=[seriesColors[1],seriesColors[2],seriesColors[0],seriesColors[3]];
  return <>
  <aside key={state.mode+state.building+state.floor+state.room+'left'} className="viz-column viz-left">
-  <Panel title={prefix+'资产概况'} className="asset-panel"><div className="kpi-grid">{[
+  <Panel title={prefix+'资产概况'} className="asset-panel" action={<button className="ledger-open" onClick={onLedger}>空间导航 ↗</button>}><div className="kpi-grid">{[
    ['资产总数',m.ds.length,'',0], [isGlobal?'楼宇数量':isRoom?'当前楼层':'空间数量',isGlobal?3:isRoom?state.floor:selected.length,isGlobal?'栋':isRoom?'F':'间',1],
    [ledger?'台账面积':isRoom?'房间面积':'建筑面积',Number((ledger?.value??scopeArea).toFixed(2)),'m²',2],['模拟在线',Math.max(0,m.ds.length-(isGlobal||state.building==='A'?1:0)),'',3]
-  ].map(([label,value,unit,icon])=><div className="kpi" key={String(label)}><Icon kind={Number(icon)}/><div><span>{label}</span><b><AnimatedNumber value={Number(value)} digits={unit==='m²'?2:0}/><em>{unit}</em></b></div></div>)}</div><div className="asset-foot"><span>模型资产 · 虚构方案</span><button onClick={onLedger}>空间导航 ↗</button></div></Panel>
-  <Panel title="空间使用占比"><div className="chart-row"><Donut values={m.usage} center="空间"/><Legend names={['办公','会议','培训','配套']} values={m.usage} unit="%"/></div><div className="panel-foot">按当前范围方案净面积统计</div></Panel>
-  <Panel title="月度用能统计" note="模拟"><Monthly actual={m.monthly.actual} plan={m.monthly.plan}/><div className="panel-foot">独立演示统计 · 随空间面积分摊</div></Panel>
+  ].map(([label,value,unit,icon])=><div className="kpi" key={String(label)}><Icon kind={Number(icon)}/><div><span>{label}</span><b><AnimatedNumber value={Number(value)} digits={unit==='m²'?2:0}/><em>{unit}</em></b></div></div>)}</div></Panel>
+  <Panel title="空间使用占比"><div className="chart-row"><Donut values={m.usage} center="空间"/><Legend names={['办公','会议','培训','配套']} values={m.usage} unit="%"/></div></Panel>
+  <Panel title="月度用能统计" note="模拟"><Monthly actual={m.monthly.actual} plan={m.monthly.plan}/></Panel>
  </aside>
  <aside key={state.mode+state.building+state.floor+state.room+'right'} className="viz-column viz-right">
-  <Panel title="运行成本占比" note="模拟"><div className="cost-bar">{costs.map((v,i)=><span key={i} style={{width:v+'%',background:costColors[i]}}><AnimatedNumber value={v}/>%</span>)}</div><div className="cost-legend">{['能源','维护','物业','其他'].map((v,i)=><div key={v}><i style={{background:costColors[i]}}/>{v}<b><AnimatedNumber value={costs[i]}/>%</b></div>)}</div><div className="panel-foot">模拟月度成本 ¥<AnimatedNumber value={Math.round(costTotal)}/></div></Panel>
+  <Panel title="运行成本占比" note="模拟"><div className="cost-bar">{costs.map((v,i)=><span key={i} style={{width:v+'%',background:costColors[i]}}><AnimatedNumber value={v}/>%</span>)}</div><div className="cost-legend">{['能源','维护','物业','其他'].map((v,i)=><div key={v}><i style={{background:costColors[i]}}/>{v}<b><AnimatedNumber value={costs[i]}/>%</b></div>)}</div></Panel>
   <Panel title={isRoom?'房间设备':'设备类型分布'}>{isRoom?<div className="device-picker">{m.ds.map(d=><button className={state.device===d.id?'selected':''} key={d.id} data-device={d.id} onClick={()=>dispatch({type:'device',id:d.id})}><Icon kind={d.id.includes('DSP')?3:0}/><span>{d.type}<small>{d.id}</small></span><span>›</span></button>)}{visualAssets.filter(a=>a.room_id===state.room).map(a=><button key={a.id} data-visual-asset={a.id} onClick={()=>dispatch({type:'inspect',id:a.id})}><Icon kind={0}/><span>{a.label}<small>独立查看 / 部件拆解</small></span><span>↗</span></button>)}</div>:<><div className="chart-row"><Donut values={m.deviceTypes} center="设备" colors={costColors} pie/><Legend names={['环境传感','交互屏','门禁','占用传感']} values={m.deviceTypes} unit="" colors={costColors}/></div><div className="chart-total"><AnimatedNumber value={m.ds.length}/> 台</div></>}</Panel>
   <Panel title="告警列表" note="文件快照"><table className="alarm-table"><thead><tr><th>时间</th><th>设备</th><th>状态</th></tr></thead><tbody>{m.alarms.slice(0,3).map(a=><tr key={a.alarm_id} onClick={()=>{const id=deviceBinding(a.device_id,bundle);if(id)dispatch({type:'device',id})}}><td>{new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(a.started_at))}</td><td><button title={a.title}>{a.device_id.replace('A-903-','903 · ')}<small>{a.source_kind==='mock'?'模拟':'真实标记'}</small></button></td><td className={'status-'+a.status}>{a.status==='resolved'?'已恢复':a.status==='acknowledged'?'已确认':'待处理'}</td></tr>)}</tbody></table>{!m.alarms.length&&<div className="no-alarms">当前范围暂无导入告警</div>}<div className="panel-foot">{m.alarms.filter(a=>a.status!=='resolved').length} 条未恢复 · {m.businessDevices.length} 台业务设备 / {m.points.length} 测点 <button className="data-detail-link" onClick={onData}>明细 ↗</button></div></Panel>
  </aside>

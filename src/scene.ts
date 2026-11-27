@@ -1,3 +1,4 @@
+import {buildCityMap} from './visual/cityMap';
 import * as T from 'three';
 import rackFrames from '../public/rack-view-frames.json';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
@@ -74,21 +75,21 @@ export class CampusScene {
   for(const item of [...data.rooms,...data.devices])if(!this.objects.has(item.id))throw Error(`模型缺少语义对象 ${item.id}`);
   for(const b of data.buildings)this.label(b.id,`${b.id} 楼`);
   for(const d of data.devices.filter(d=>d.room_id==='A-903'))this.label('device:'+d.id,d.type);
-  this.label('selected-room','');this.label('demo-campus','智慧园区 · 演示定位 ↗');
+  this.label('selected-room','');this.label('demo-campus','智慧园区 ↗');
+  const campusLabel=this.labels.get('demo-campus')!;
+  const summary=document.createElement('small');
+  summary.textContent=`${data.rooms.length} 个空间 · ${data.devices.length} 台设备`;
+  campusLabel.appendChild(summary);campusLabel.title='进入园区';
   await this.loadCity();if(!this.alive)return;this.night=new NightEffects(this.city,this.context,this.asset,plan);
   this.camera.position.copy(v(plan.camera.position));this.controls.target.copy(v(plan.camera.target));this.setState(this.state);this.onReady();
  }catch(e){if(this.alive)this.onReady(String(e))}}
  async loadCity(){
   const r=await fetch('./geodata/shanghai.json');if(!r.ok)throw Error('城市底图加载失败');const json=await r.json();
   const geometry=json.features[0].geometry;const polygons=geometry.type==='Polygon'?[geometry.coordinates]:geometry.coordinates;
-  const project=(p:number[])=>new T.Vector2((p[0]-121.45)*95*Math.cos(31.2*Math.PI/180),(p[1]-31.15)*95);
-  for(const poly of polygons){const shape=new T.Shape(poly[0].map(project));for(const hole of poly.slice(1))shape.holes.push(new T.Path(hole.map(project)));
-   const mesh=new T.Mesh(new T.ExtrudeGeometry(shape,{depth:2,bevelEnabled:false}),new T.MeshStandardMaterial({color:'#174463',roughness:.32,metalness:.5,emissive:'#06243b',emissiveIntensity:.6}));mesh.rotation.x=-Math.PI/2;this.city.add(mesh);
-   const outline=poly[0].map((p:number[])=>{const q=project(p);return new T.Vector3(q.x,2.05,-q.y)});this.city.add(new T.Line(new T.BufferGeometry().setFromPoints(outline),new T.LineBasicMaterial({color:'#5ddcff',transparent:true,opacity:.85})));
-  }
+  buildCityMap(this.city,polygons);
   const pin=new T.Mesh(new T.CylinderGeometry(.7,.7,6,20),new T.MeshStandardMaterial({color:'#f5a85f',emissive:'#9d5524',emissiveIntensity:.6}));pin.position.set(0,5,0);pin.userData.kind='campus-pin';this.city.add(pin);
   const ring=new T.Mesh(new T.RingGeometry(3,3.4,64),new T.MeshBasicMaterial({color:'#f5a85f',side:T.DoubleSide}));ring.rotation.x=-Math.PI/2;ring.position.y=2.2;ring.userData.kind='campus-pin';this.city.add(ring);
-  const grid=new T.GridHelper(180,18,0x16384f,0x102a40);grid.position.y=-.15;this.city.add(grid);
+
  }
  label(id:string,text:string){const el=document.createElement('button');el.className='scene-label';el.textContent=text;el.dataset.object=id;el.onclick=()=>{if(id.startsWith('device:'))this.onAction({type:'device',id:id.slice(7)});else if(buildings.has(id))this.onAction({type:'building',id});else if(id==='selected-room')this.onAction({type:'room',id:this.state.room});else this.onAction({type:'navigate',mode:'campus'})};this.host.appendChild(el);this.labels.set(id,el)}
  setState(s:State){const previous=this.state;this.state=s;this.controls.autoRotate=false;if(!this.asset)return;
@@ -130,7 +131,7 @@ export class CampusScene {
   if(this.state.inspect){this.inspectionView();return;}
   this.camera.clearViewOffset();this.camera.near=.3;this.camera.updateProjectionMatrix();this.controls.minDistance=3;
   const s=this.state,b=buildings.get(s.building)!,p=placements.get(s.building)!;let pos:T.Vector3,look:T.Vector3;
-  if(s.mode==='city'){pos=new T.Vector3(55,130,145);look=new T.Vector3(0,0,0)}
+  if(s.mode==='city'){look=new T.Vector3(0,0,-10);pos=look.clone().add(new T.Vector3(30,165,164))}
   else if(s.mode==='campus'){pos=new T.Vector3(6,115,280);look=new T.Vector3(0,12,0)}
   else if(s.mode==='building'){const h=b.equip+(s.exploded?b.floors*2:0);look=v([p[0],p[1],h/2]);pos=look.clone().add(new T.Vector3(h*1.25,h*.9,h*1.85))}
   else if(s.mode==='floor'){const z=floors.get(floorKey(s.building,s.floor))!.base_z;look=v([p[0],p[1],z]);pos=look.clone().add(new T.Vector3(b.width,b.width*1.35,b.depth*2.15))}
@@ -177,7 +178,7 @@ export class CampusScene {
   if(this.moving){this.camera.position.lerp(this.targetPos,k);this.controls.target.lerp(this.targetLook,k);if(this.camera.position.distanceTo(this.targetPos)<.01){this.camera.position.copy(this.targetPos);this.controls.target.copy(this.targetLook);this.moving=false}}
   this.controls.enabled=!this.moving;if(this.moving)this.camera.lookAt(this.controls.target);else this.controls.update();this.night?.tick(dt);this.equipment.update(dt);
   if(this.state.device&&!this.state.inspect){const o=this.objects.get(this.state.device);if(o){o.updateWorldMatrix(true,false);this.highlight.box.setFromObject(o).expandByScalar(.12);this.highlight.visible=true;(this.highlight.material as T.LineBasicMaterial).color.set(this.alarmDevices.has(this.state.device)?0xff695d:0xf6ae61)}}
-  this.renderer.info.reset();if(this.composer)this.composer.render();else this.renderer.render(this.scene,this.camera);
+  this.renderer.info.reset();if(this.composer&&this.state.mode!=='city')this.composer.render();else this.renderer.render(this.scene,this.camera);
   const size=this.host.getBoundingClientRect();for(const [id,el] of this.labels){let point:T.Vector3|null=null;
    if(buildings.has(id)&&this.state.mode==='campus'){const p=placements.get(id)!;point=v([p[0],p[1],buildings.get(id)!.equip+3])}
    if(id==='selected-room'&&this.state.mode==='floor'){const c=roomCenter(this.state.room);point=v([c[0],c[1],c[2]+2]);el.textContent=`${this.state.room} · ${rooms.get(this.state.room)!.name} ↗`}
@@ -189,5 +190,5 @@ export class CampusScene {
   this.frame=requestAnimationFrame(this.tick);
  };
  diagnostics(){return {version:10,inspection:{parts:this.equipment.parts.size,progress:this.equipment.progress,selected:this.equipment.selected},state:this.state,hash:this.hash,loaded:!!this.asset,css:[this.host.clientWidth,this.host.clientHeight],buffer:this.renderer.getDrawingBufferSize(new T.Vector2()).toArray(),pixelRatio:this.renderer.getPixelRatio(),camera:this.camera.position.toArray(),target:this.controls.target.toArray(),triangles:this.renderer.info.render.triangles,calls:this.renderer.info.render.calls,floor9:this.objects.get('A_F09')?.getWorldPosition(new T.Vector3()).toArray(),room:this.objects.get(this.state.room)?.getWorldPosition(new T.Vector3()).toArray(),selectedFloor:this.objects.get(`${this.state.building}_F${String(this.state.floor).padStart(2,'0')}`)?.getWorldPosition(new T.Vector3()).toArray(),semanticCounts:{rooms:[...this.objects.values()].filter(o=>o.userData.kind==='room').length,devices:[...this.objects.values()].filter(o=>o.userData.kind==='device').length},nightEffects:{enabled:this.night?.enabled,time:this.night?.time,decorations:this.night?.owned.length},postProcessingBuffer:this.composer?[this.composer.renderTarget1.width,this.composer.renderTarget1.height]:null}}
- dispose(){this.alive=false;cancelAnimationFrame(this.frame);this.resize.disconnect();this.controls.dispose();this.equipment.close();this.interior.dispose();this.night?.dispose();this.bloom?.dispose();this.output?.dispose();this.composer?.dispose();this.renderer.domElement.removeEventListener('pointerdown',this.down);this.renderer.domElement.removeEventListener('pointerup',this.up);this.scene.traverse(o=>{if(o instanceof T.Mesh){o.geometry.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>m.dispose())}});this.scene.environment?.dispose();if(this.scene.background instanceof T.Texture)this.scene.background.dispose();this.renderer.dispose();this.host.replaceChildren()}
+ dispose(){this.alive=false;cancelAnimationFrame(this.frame);this.resize.disconnect();this.controls.dispose();this.equipment.close();this.interior.dispose();this.night?.dispose();this.bloom?.dispose();this.output?.dispose();this.composer?.dispose();this.renderer.domElement.removeEventListener('pointerdown',this.down);this.renderer.domElement.removeEventListener('pointerup',this.up);this.scene.traverse(o=>{if(o instanceof T.Sprite){o.material.map?.dispose();o.material.dispose()}if(o instanceof T.Mesh||o instanceof T.Line){o.geometry.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>m.dispose())}});this.scene.environment?.dispose();if(this.scene.background instanceof T.Texture)this.scene.background.dispose();this.renderer.dispose();this.host.replaceChildren()}
 }

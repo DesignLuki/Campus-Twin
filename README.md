@@ -18,3 +18,5 @@ npm run dev
 ## 发布
 
 向 main 推送更新后，GitHub Actions 会运行测试并构建静态站点，随后部署到 GitHub Pages。工作流位于 `.github/workflows/pages.yml`。
+
+城市视图使用 Natural Earth 公有领域的市界和[主要道路数据](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/roads/)。建筑群和园区位置用于场景演示，定位卡统计当前模型中的空间和设备。
